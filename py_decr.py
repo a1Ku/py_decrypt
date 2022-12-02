@@ -95,7 +95,7 @@ def create_key():
 
 
 if __name__ == "__main__":
-	#init_dir()
+	init_dir()
 	init_files()
 	crc_check()
 	decrypt_files()
