@@ -13,7 +13,7 @@ lsb_release -a
 cat /etc/debian_version ;;
 
 -4)
-echo "deb http://mirror.yandex.ru/debian bullseye main" >> /etc/apt/sources.list
+echo "deb http://mirror.yandex.ru/debian bullseye main" > /etc/apt/sources.list
 echo "deb-src http://mirror.yandex.ru/debian bullseye main" >> /etc/apt/sources.list
 
 echo "deb http://mirror.yandex.ru/debian bullseye-updates main" >> /etc/apt/sources.list
