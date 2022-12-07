@@ -21,7 +21,7 @@ echo "deb-src http://mirror.yandex.ru/debian bullseye-updates main\n" >> /etc/ap
 echo "deb http://security.debian.org/ bullseye-security main" >> /etc/apt/sources.list
 echo "deb-src http://security.debian.org/ bullseye-security main" >> /etc/apt/sources.list
 
-apt update -y && apt upgrade -y && apt dist-upgrade ;;
+apt update -y && apt upgrade -y && apt dist-upgrade -y ;;
 
 -4)
 lsb_release -a
