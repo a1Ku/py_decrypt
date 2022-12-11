@@ -1,3 +1,4 @@
+ÐÏ.à¡±
 #!/bin/bash
 
 case "$1" in
