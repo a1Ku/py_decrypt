@@ -6,7 +6,7 @@ import shutil
 import gnupg
 
 
-old_path = "/home/alku/cripta/8_6cb09e6e/"
+old_path = "/home/alku/cripta/22_dfc697a5/"
 files_path = "/home/alku/cripta/BBSO_01_19/files/"
 etc_path = "/home/alku/cripta/BBSO_01_19/etc/"
 
@@ -86,8 +86,7 @@ def create_key():
 			if pt == "2": chunk_2 = chunk
 			if pt == "3": chunk_3 = chunk
 			if pt == "4": chunk_4 = chunk
-			if pt == "5": chunk_5 = chunk
-		key = chunk_1 + chunk_2 + chunk_3 + chunk_4 + chunk_5
+		key = chunk_1 + chunk_2 + chunk_3 + chunk_4
 		print("KEY: " + key)
 		with open(etc_path + "target.txt.gpg", "rb") as fp:
 			n_file = fp.read()
