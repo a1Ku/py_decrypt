@@ -86,7 +86,8 @@ def create_key():
 			if pt == "2": chunk_2 = chunk
 			if pt == "3": chunk_3 = chunk
 			if pt == "4": chunk_4 = chunk
-		key = chunk_1 + chunk_2 + chunk_3 + chunk_4
+			if pt == "5": chunk_5 = chunk
+		key = chunk_1 + chunk_2 + chunk_3 + chunk_4 + chunk_5
 		print("KEY: " + key)
 		with open(etc_path + "target.txt.gpg", "rb") as fp:
 			n_file = fp.read()
